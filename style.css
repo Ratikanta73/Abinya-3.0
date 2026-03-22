@@ -2331,7 +2331,7 @@ button {
 .testimonials-section .testimonials-track {
     display: flex !important;
     gap: var(--space-lg);
-    animation: scroll-testimonials 10s linear infinite;
+    animation: scroll-testimonials 6s linear infinite;
     will-change: transform;
     flex-wrap: nowrap !important;
 }
@@ -2460,6 +2460,7 @@ button {
 
     .testimonials-section .testimonials-track {
         gap: 16px !important;
+         animation: scroll-testimonials 5s linear infinite;
     }
 
     .testimonials-section .testimonial-message {
