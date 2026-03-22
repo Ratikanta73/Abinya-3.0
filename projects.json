@@ -1,0 +1,1516 @@
+[
+  {
+    "id": 1,
+    "title": "DevOps CloudLab",
+    "description": "Cloud Data ",
+    "category": "system",
+    "categoryName": "System Programming",
+    "tags": [
+      "TensorFlow, React, Deep Learning, Blockchain , IoT"
+    ],
+    "thumbnail": "projects/1/c.webp",
+    "about": "Learning AWS and DevOps typically requires a real cloud account, which involves cost, billing risks, and limited freedom to experiment. This creates fear and restricts hands on practice for students and engineers. DevOps Cloud Lab solves this by creating a complete local AWS simulation using Docker and LocalStack, enabling users to learn, test, provision, and destroy infrastructure safely without spending money or affecting real cloud resources.",
+    "technologies": [
+      "DevOps",
+      "AWS",
+      "Local Stack",
+      "Docker"
+    ],
+    "videoUrl": "https://youtu.be/gS3iiUl0mmM?si=EEbMUPPjGGJSApty",
+    "gallery": [
+      "projects/1/g1.webp",
+      "projects/1/g2.webp",
+      "projects/1/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Guru Prasad Panda",
+        "designation": "Team Lead",
+        "photo": "projects/1/d1.webp"
+      },
+      {
+        "name": "Ratikanta Behera",
+        "designation": "UI/UX Designer",
+        "photo": "projects/1/d2.webp"
+      },
+      {
+        "name": "Debasmita Panda",
+        "designation": "Developer",
+        "photo": "projects/1/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "DDSH",
+    "description": "Real-Time Multi-Layer Driver Fatigue Detection",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "TensorFlow",
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "OpenCV"
+    ],
+    "thumbnail": "projects/2/2_cover.webp",
+    "about": "DDSH (Dynamic Driver Safety Hub) is a real-time fatigue detection system combining eye-state classification and whole-body pose estimation in a unified AI pipeline. It addresses limitations of traditional systems by eliminating false positives and adapting to dynamic driving conditions. Using MobileNet transfer learning and enhanced HRNet modeling, DDSH achieves high accuracy with real-time 42 FPS inference, enabling lightweight, production-ready deployment for intelligent road safety.",
+    "technologies": [
+      "TensorFlow",
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "OpenCV"
+    ],
+    "videoUrl": "https://youtu.be/A0TciUa62ME",
+    "gallery": [
+      "projects/2/2_gallery1.webp",
+      "projects/2/2_gallery2.webp",
+      "projects/2/2_gallery3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Vivek Ranjan Sahoo",
+        "designation": "Edge AI Engineer",
+        "photo": "projects/2/2_d1.webp"
+      },
+      {
+        "name": "Ritisha Rout",
+        "designation": "ML Engineer",
+        "photo": "projects/2/2_d2.webp"
+      },
+      {
+        "name": "Amit Kumar Maiti",
+        "designation": "IoT Developer",
+        "photo": "projects/2/2_d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "IRA",
+    "description": "AI-Driven Intelligent Resource Allocation Platform",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "TensorFlow",
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "NumPy",
+      "React"
+    ],
+    "thumbnail": "projects/3/t.webp",
+    "about": "[IRA Intelligent Resource Architecture] Inefficient land utilization and renewable energy planning often result from fragmented climatic, geospatial, and demand data, leading to suboptimal solar deployment and financial losses. IRA addresses this gap through a multi-agent AI framework that integrates terrain analytics, climate modeling, and energy demand forecasting to optimize land allocation and renewable infrastructure placement. The platform delivers data-driven insights, improves return on investment, and enables scalable, sustainable development planning.",
+    "technologies": [
+      "TensorFlow",
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "NumPy",
+      "React"
+    ],
+    "videoUrl": "",
+    "gallery": [
+      "projects/3/g1.webp",
+      "projects/3/g2.webp",
+      "projects/3/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Ayush Ranjan Pradhan",
+        "designation": "Project Lead & Systems Architect",
+        "photo": "projects/3/d1.webp"
+      },
+      {
+        "name": "Pavan Kumar",
+        "designation": "Full-Stack & Visualization Engineer",
+        "photo": "projects/3/d2.webp"
+      },
+      {
+        "name": "Prerna Raut",
+        "designation": "UI/UX Designer",
+        "photo": "projects/3/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "AGORA",
+    "description": "AGORA: WEB3-POWERED DECENTRALIZED GOVERNANCE PLATFORM",
+    "category": "blockchain",
+    "categoryName": "Blockchain",
+    "tags": [
+      "Machine Learning", "React", "Node.js", "MongoDB", "Soulbound Tokens"
+    ],
+    "thumbnail": "projects/5/5c.webp",
+    "about": "Current civic participation systems often lack secure identity verification, transparency, and accessibility, allowing fake participation and reducing trust in governance. AGORA addresses these challenges through a Web3-based decentralized governance platform that uses blockchain, decentralized identity, and Soulbound Tokens to ensure one-person-one-vote. The system enables citizens to securely propose, discuss, and vote on local governance issues from anywhere, ensuring transparent, tamper-proof, and inclusive decision-making.",
+    "technologies": [
+      "Machine Learning",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Soulbound Tokens"
+    ],
+    "videoUrl": "",
+    "gallery": [
+      "projects/5/5g1.webp",
+      "projects/5/5g2.webp",
+      "projects/5/5g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Nishant Gupta",
+        "designation": "Backend developer, data analytics",
+        "photo": "projects/5/5d1.webp"
+      },
+      {
+        "name": "Anubhab Samantaray",
+        "designation": "AIML Developer",
+        "photo": "projects/5/5d2.webp"
+      },
+      {
+        "name": "Akansha Ajay ",
+        "designation": "UI/UX Designer",
+        "photo": "projects/5/5d3.webp"
+      },
+      {
+        "name": "Akansha Ajay ",
+        "designation": "UI/UX Designer",
+        "photo": "projects/5/5d4.webp"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "TiFiv",
+    "description": "IoT and ML-based real-time theft detection",
+    "category": "iot",
+    "categoryName": "IoT",
+    "tags": [
+      "Python, Machine Learning, Pandas, Google Firebase, IOT devices"
+    ],
+    "thumbnail": "projects/6/t.webp",
+    "about": "Power grids face massive revenue deficits due to invisible electricity theft and reactive detection methods. This system deploys ESP32-based nodes at transformer and consumer levels to synchronize real-time power measurements via Wi-Fi. By integrating an Isolation Forest machine learning model on a local server, the system distinguishes natural line losses from fraudulent tapping, providing proactive, low-cost monitoring and instant theft alerts through a live web dashboard.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Google Firebase",
+      "IOT devices"
+    ],
+    "videoUrl": "https://youtu.be/0gP5NTChOnI?si=W5oWwGW0Vyia8FRO",
+    "gallery": [
+      "projects/6/g1.webp",
+      "projects/6/g2.webp",
+      "projects/6/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Subhakanta Das",
+        "designation": "IoT Developer",
+        "photo": "projects/6/d1.webp"
+      },
+      {
+        "name": "Nilaya Nakhsyatra Raj",
+        "designation": "UI/UX Designer",
+        "photo": "projects/6/d2.webp"
+      },
+      {
+        "name": "Gyan Patel",
+        "designation": "Programmer",
+        "photo": "projects/6/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "AutoBLE",
+    "description": "Offline proximity-based smart inventory system.",
+    "category": "iot",
+    "categoryName": "IoT",
+    "tags": [
+      "React"
+    ],
+    "thumbnail": "projects/7/t.webp",
+    "about": "Manual inventory checks are time-consuming, error-prone, and labor-intensive, often causing missed records. AutoBLE solves this with a portable offline system using BLE beacons attached to containers. A handheld ESP32 detects nearby beacons via RSSI, automatically marking items verified on a real-time local checklist. This enables fast, contactless, automatic, energy-efficient verification without internet connectivity, improving operational accuracy and speed for warehouses and labs.",
+    "technologies": [
+      "React"
+    ],
+    "videoUrl": "",
+    "gallery": [
+      "projects/7/g1.webp",
+      "projects/7/g2.webp",
+      "projects/7/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Yashvi Lodhi",
+        "designation": "Web Developer",
+        "photo": "projects/7/d1.webp"
+      },
+      {
+        "name": "Sahil Kumar Sahoo",
+        "designation": "IoT Developer",
+        "photo": "projects/7/d2.webp"
+      },
+      {
+        "name": "Debadatta Panda",
+        "designation": "UI/UX Designer",
+        "photo": "projects/7/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "DharaAI",
+    "description": "DharaAI: An Integrated IoT-Edge AI Framework for Precision Agriculture, Soil Health Monitoring and Real-Time Agronomic Intelligence",
+    "category": "agriculture",
+    "categoryName": "IoT, Agriculture Tech",
+    "tags": [
+      "Python", "Machine Learning", "NumPy", "Pandas", "React"
+    ],
+    "thumbnail": "projects/8/c.webp",
+    "about": "DharaAI tackles India's agricultural challenges like soil degradation, water scarcity, and fertilizer misuse through an affordable IoT-Edge AI system. Using ESP32 sensors for real-time monitoring of NPK, pH, moisture, and environmental factors, it generates GPS-based fertility maps and AI insights via Google Gemini for crop recommendations, optimized irrigation, and nutrient management. This empowers small farmers with actionable, multilingual advice, reducing waste, boosting yields, and promoting sustainability.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "React"
+    ],
+    "videoUrl": "",
+    "gallery": [
+      "projects/8/g1.webp",
+      "projects/8/g2.webp",
+      "projects/8/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "SIDDHANT SATYAJEET JENA",
+        "designation": "IoT & AI Developer",
+        "photo": "projects/8/d1.webp"
+      },
+      {
+        "name": "RAJSHREE BALSAMANT",
+        "designation": "Frontend & System Integration",
+        "photo": "projects/8/d2.webp"
+      },
+      {
+        "name": "DEBAJYOTI BHAKTA",
+        "designation": "Full-Stack & AI/ML Developer",
+        "photo": "projects/8/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "SWASTH",
+    "description": "SWASTH: Distributed AI Council for Care",
+    "category": "healthcare",
+    "categoryName": "Healthcare",
+    "tags": [
+      "TensorFlow, Healthcare, React,  Firebase,  LangChain,  Machine Learning,  TypeScript"
+    ],
+    "thumbnail": "projects/9/t.webp",
+    "about": "SWASTH addresses healthcare fragmentation through an AI-powered unified platform that intelligently analyzes patient symptoms and routes them to appropriate specialists with real-time prioritization. The system ensures secure doctor verification via an admin dashboard, synchronized role-based portals for patients and providers, and a built-in accountability mechanism for reporting misconduct. By combining agentic AI orchestration with live data syncing, SWASTH improves efficiency, transparency, and patient safety.",
+    "technologies": [
+      "TensorFlow",
+      "Healthcare",
+      "React",
+      "Firebase",
+      "LangChain",
+      "Machine Learning",
+      "TypeScript"
+    ],
+    "videoUrl": "https://forms.gle/1Vtg7mN1ZK5RDX8j9",
+    "gallery": [
+      "projects/9/g1.webp",
+      "projects/9/g2.webp",
+      "projects/9/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "PREE OM PRIYADARSHI KAMILA",
+        "designation": "Agentic AI Developer",
+        "photo": "projects/9/d1.webp"
+      },
+      {
+        "name": "MOHIT KUMAR",
+        "designation": "Machine Learning Developer (Agentic AI)",
+        "photo": "projects/9/d2.webp"
+      },
+      {
+        "name": "MADHUSIKTA TANAYA SINGH",
+        "designation": "Full-Stack Developer",
+        "photo": "projects/9/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "QuanTra",
+    "description": "QuanTra: Algorithmic trading research and implementor for Indian markets.",
+    "category": "fintech",
+    "categoryName": "Fintech",
+    "tags": [
+      "Python, React"
+    ],
+    "thumbnail": "projects/10/t.webp",
+    "about": "Retail traders and independent quant researchers in Indian markets often lack tools that balance accessibility with advanced capability. Existing platforms either demand deep programming expertise or are too simplistic for serious strategy development. QuanTra bridges this gap by enabling users to create custom advanced algorithms, convert them into structured strategy logic, and backtest against historical Indian market data \u2014 returning clear, actionable performance metrics to help traders research, refine, and validate strategies confidently.",
+    "technologies": [
+      "Python",
+      "React"
+    ],
+    "gallery": [
+      "projects/10/g1.webp",
+      "projects/10/g2.webp",
+      "projects/10/g3.webp"
+    ],
+    "videoUrl": "",
+    "developers": [
+      {
+        "name": "Jitesh Raj",
+        "designation": "Full Stack Developer",
+        "photo": "projects/10/d1.webp"
+      },
+      {
+        "name": "Jayashree Das",
+        "designation": "Backend Developer",
+        "photo": "projects/10/d2.webp"
+      },
+      {
+        "name": "Arin Joshi",
+        "designation": "Frontend Developer",
+        "photo": "projects/10/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "MORRIS",
+    "description": "An intent-driven declarative shell language",
+    "category": "system",
+    "categoryName": "System Programming",
+    "tags": [
+      "Rust"
+    ],
+    "thumbnail": "projects/11/t.webp",
+    "about": "MORRIS is an intent-based, declarative shell language designed upon the functional reactive approach to programming. It is designed to orchestrate systems where performance is absolutely critical and errors are not an option; like game-engine, safety critical hardware, or operating system. The language achieves this by a reactive engine that maintains predefined state and adjusts itself to changes in external variables.\n",
+    "technologies": [
+      "Rust"
+    ],
+    "gallery": [
+      "projects/11/g1.webp",
+      "projects/11/g2.webp",
+      "projects/11/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/l_rzfj_k4Lk",
+    "developers": [
+      {
+        "name": "Surya Prasad Brahma",
+        "designation": "Developer",
+        "photo": "projects/11/d1.webp"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Synq",
+    "description": "Blazing-fast, zero-downtime cross-database migration tool",
+    "category": "system",
+    "categoryName": "System Programming",
+    "tags": [
+      "Go"
+    ],
+    "thumbnail": "projects/12/t.webp",
+    "about": "Database migrations are one of the most stressful operations in engineering one bad row can halt everything. Synq is a high-performance CLI tool written in Go that removes that fear. It streams data through in-memory pipelines, resolves foreign key dependencies automatically, and captures failures without stopping the job. With built-in PII scanning, extensible multi-database support, and throughput exceeding 588,000 rows per second, Synq makes production migrations fast and safe.",
+    "technologies": [
+      "Go"
+    ],
+    "gallery": [
+      "projects/12/g1.webp",
+      "projects/12/g2.webp",
+      "projects/12/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/345GlXgnJjI",
+
+    "developers": [
+      {
+        "name": "Anubhav Jaiswal",
+        "designation": "Developer",
+        "photo": "projects/12/d1.webp"
+      },
+      {
+        "name": "Riya",
+        "designation": "Developer",
+        "photo": "projects/12/d2.webp"
+      },
+      {
+        "name": "Harshit",
+        "designation": "Developer",
+        "photo": "projects/12/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "AstroAegis ",
+    "description": "Adaptive asteroid hazard risk prediction system",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "OpenCV",
+      "Scikit-learn",
+      "PostgreSQL",
+      "MLflow",
+      "GitHub Actions",
+      "Grafana",
+      "DAGsHub"
+    ],
+    "thumbnail": "projects/13/t.webp",
+    "about": "Near-Earth Object monitoring systems largely depend on static threshold-based classifications, lacking intelligent risk prioritization and adaptive learning to manage continuously evolving asteroid data. This project introduces an end-to-end machine learning pipeline that predicts hazardous asteroids, generates composite risk scores by integrating physical impact factors with prediction probabilities, and incorporates automated drift detection to ensure reliable, scalable, and data-driven planetary threat assessment.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "OpenCV",
+      "Scikit-learn",
+      "PostgreSQL",
+      "MLflow",
+      "GitHub Actions",
+      "Grafana",
+      "DAGsHub"
+    ],
+    "gallery": [
+      "projects/13/g1.webp",
+      "projects/13/g2.webp",
+      "projects/13/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/3IMF4ES097c?si=zy5jTdwubWeh-uLF",
+
+    "developers": [
+      {
+        "name": "Subasis Mishra",
+        "designation": "MLOps Developer",
+        "photo": "projects/13/d1.webp"
+      },
+      {
+        "name": "Sanyukt Kumar Rai",
+        "designation": "Designer",
+        "photo": "projects/13/d2.webp"
+      },
+      {
+        "name": "Aryan Kumar",
+        "designation": "Frontend Developer",
+        "photo": "projects/13/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Praxifi",
+    "description": "Praxifi : Your Agentic CFO Copilot",
+    "category": "fintech",
+    "categoryName": "Fintech",
+    "tags": [
+      "Prophet",
+      "SHAP",
+      "Zero-Knowledge",
+      "Gemini 2.5",
+      "Differential Privacy"
+    ],
+    "thumbnail": "projects/14/t.webp",
+    "about": "Every CFO faces the same nightmare: by the time they spot a cash flow problem, it's already a crisis. Praxifi changes this reality. Upload your financial data, and within minutes, it forecasts future trends, flags hidden risks, simulates business scenarios, and answers your hardest questions conversationally. What used to take weeks of manual analysis now happens instantly, giving you the foresight to prevent disasters instead of managing them.",
+    "technologies": [
+      "Prophet",
+      "SHAP",
+      "Zero-Knowledge",
+      "Gemini 2.5",
+      "Differential Privacy"
+    ],
+    "gallery": [
+      "projects/14/g1.webp",
+      "projects/14/g2.webp",
+      "projects/14/g3.webp"
+    ],
+    "videoUrl": "",
+
+    "developers": [
+      {
+        "name": "Swayam Prakash Sahoo",
+        "designation": "AI Engineer",
+        "photo": "projects/14/d1.webp"
+      },
+      {
+        "name": "Priyabrata Dash",
+        "designation": "Frontend Developer",
+        "photo": "projects/14/d2.webp"
+      },
+      {
+        "name": "Rishabh Gupta",
+        "designation": "Backend Developer",
+        "photo": "projects/14/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "CodeZen",
+    "description": "From Zero to Job-Ready, Powered by AI",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "Fast API",
+      "SQL"
+    ],
+    "thumbnail": "projects/15/t.webp",
+    "about": "Aspiring developers today waste valuable time switching between multiple disconnected tools for coding practice, resume building, and interview preparation with no clear roadmap or progress tracking. CodeZen solves this by bringing everything into one AI-powered platform. With a smart code editor, personalized learning paths, ATS resume analyzer, and AI mock interviews, CodeZen guides every learner step by step from writing their first line of code to becoming fully job-ready.\n",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "Fast API",
+      "SQL"
+    ],
+    "gallery": [
+      "projects/15/g1.webp",
+      "projects/15/g2.webp",
+      "projects/15/g3.webp"
+    ],
+    "videoUrl": "https://youtube.com/shorts/UG_E4FTCLLM?si=aOm_hYTYcwE6m0xZ",
+
+    "developers": [
+      {
+        "name": "Anahita Singh",
+        "designation": "Developer",
+        "photo": "projects/15/d1.webp"
+      },
+      {
+        "name": "Ava Acharya ",
+        "designation": "Developer",
+        "photo": "projects/15/d2.webp"
+      },
+      {
+        "name": "Ritul Kumari ",
+        "designation": "Developer",
+        "photo": "projects/15/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "AquaNova",
+    "description": "AI pipeline decoding deep-sea biodiversity via eDNA",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "TensorFlow, Python, Machine Learning, React, Deep Learning"
+    ],
+    "thumbnail": "projects/17/t.webp",
+    "about": "Deep-sea eDNA analysis is constrained by slow, database-dependent pipelines that compare sequences individually, missing unknown species and delaying discovery. Our AI-driven pipeline clusters DNA sequences using CNN-based feature extraction and density-based grouping, reducing redundant searches by over 96% and automating the workflow. It delivers rapid, resilient analysis while surfacing novel genetic clusters, accelerating biodiversity discovery, bio-surveillance, and scalable applications across healthcare, agriculture, and biotechnology.",
+    "technologies": [
+      "TensorFlow",
+      "Python",
+      "Machine Learning",
+      "React",
+      "Deep Learning"
+    ],
+    "gallery": [
+      "projects/17/g1.webp",
+      "projects/17/g2.webp",
+      "projects/17/g3.webp"
+    ],
+    "videoUrl": "",
+
+    "developers": [
+      {
+        "name": "Imtiyaz Allam",
+        "designation": "ML Developer",
+        "photo": "projects/17/d1.webp"
+      },
+      {
+        "name": "Aastha .",
+        "designation": "Web Developer",
+        "photo": "projects/17/d2.webp"
+      },
+      {
+        "name": "Ayush Singh",
+        "designation": "Web Developer",
+        "photo": "projects/17/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "TrustSeal",
+    "description": "TrustSeal: Blockchain-Anchored IoT Framework for Supply Chain Integrity",
+    "category": "iot",
+    "categoryName": "IoT + Blockchain",
+    "tags": [
+      "React",
+      "Flask",
+      "NB-IoT",
+      "IPFS",
+      "Polygon",
+      "Solidity"
+    ],
+    "thumbnail": "projects/18/c.webp",
+    "about": "TrustSeal implements a custody-driven supply chain system where IoT devices continuously collect environmental and motion data, while blockchain records are created only at verified custody transitions. Data is buffered, hashed, and bundled off-chain, then immutably anchored through cryptographic verification, achieving scalable traceability, fault tolerance, and transparent trust without continuous blockchain writes. Continuous telemetry with local buffering and acknowledgements, Custody-triggered batching and cryptographic verification, Off-chain storage with on-chain hash anchoring, Designed for reliability under network and system failures",
+    "technologies": [
+      "React",
+      "Flask",
+      "NB-IoT",
+      "IPFS",
+      "Polygon",
+      "Solidity"
+    ],
+    "gallery": [
+      "projects/18/g1.webp",
+      "projects/18/g2.webp",
+      "projects/18/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/8c_TXBX1Qf4?si=nX0hbeGGbYwOTYic",
+
+    "developers": [
+      {
+        "name": "Bhabesh Behera",
+        "designation": "IoT Developer",
+        "photo": "projects/18/d1.webp"
+      },
+      {
+        "name": "Pritam Prayas Behera",
+        "designation": "Full Stack Developer",
+        "photo": "projects/18/d2.webp"
+      },
+      {
+        "name": "Akshat Jha",
+        "designation": "Blockchain Developer",
+        "photo": "projects/18/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "SheQuirity",
+    "description": "Shequirity: A Dual-Device Safety System for women.",
+    "category": "iot",
+    "categoryName": "IoT",
+    "tags": [
+      "C++,  ESP-NOW, BLE"
+    ],
+    "thumbnail": "projects/19/t.webp",
+    "about": "Many unsafe situations are faced by women subtly through misuse of authority, force or by coersion, where immediate help is not available. Existing safety tools focus only on loud emergency alerts and fail to preserve context, dignity or evidence of any sort.\nSheQuirity is a dual-device wearable system that enables silent SOS whilst preserving contextual evidence. By combining silent hardware trigger with secure incident logging, Shequirity prioritizes dignity, control and reliable protection when and where it matters most.",
+    "technologies": [
+      "C++",
+      "ESP-NOW",
+      "BLE"
+    ],
+    "gallery": [
+      "projects/19/g1.webp",
+      "projects/19/g2.webp",
+      "projects/19/g3.webp"
+    ],
+    "videoUrl": "",
+    "developers": [
+      {
+        "name": "Rayan Ghosh",
+        "designation": "App Developer",
+        "photo": "projects/19/d1.webp"
+      },
+      {
+        "name": "Uday Garg",
+        "designation": "IoT Developer",
+        "photo": "projects/19/d2.webp"
+      },
+      {
+        "name": "Omshree Dash",
+        "designation": "Web Developer",
+        "photo": "projects/19/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "PRISM",
+    "description": "PRISM : Advanced Research Review System",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python, Machine Learning, React"
+    ],
+    "thumbnail": "projects/20/t.webp",
+    "about": "Research institutions process large volumes of proposals, making consistent, transparent, and efficient evaluation challenging. Manual screening is time-intensive and vulnerable to bias, duplication, and administrative delays. PRISM addresses this by delivering an AI-assisted intelligence system that performs semantic parsing, similarity detection, risk modeling, and reviewer alignment while maintaining human authority, explainability, and full audit traceability for institutional-grade governance.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "React"
+    ],
+    "gallery": [
+      "projects/20/g1.webp",
+      "projects/20/g2.webp",
+      "projects/20/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/ZwiQcSUJnAA",
+
+    "developers": [
+      {
+        "name": "Ankit Parida",
+        "designation": "Frontend Developer",
+        "photo": "projects/20/d1.webp"
+      },
+      {
+        "name": "Nupur Dey",
+        "designation": "AI (NLP) Developer",
+        "photo": "projects/20/d2.webp"
+      },
+      {
+        "name": "Satvik Narayan",
+        "designation": "Backend Developer",
+        "photo": "projects/20/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Z.E.K",
+    "description": "Z.E.K: Post-quantum security powered by natural entropy.",
+    "category": "cybersecurity",
+    "categoryName": "Cybersecurity",
+    "tags": [
+      "Python",
+      "Flask",
+      "C++",
+      "ESP32",
+      "PySerial"
+    ],
+    "thumbnail": "projects/21/c.webp",
+    "about": "Standard digital security relies on predictable computer algorithms, leaving enterprise data highly vulnerable to advanced hacking and future quantum threats. The Z.E.K completely eliminates this risk by harvesting true, unpredictable physical chaos from microscopic electronic hardware. By converting this raw physical noise into unbreakable security keys, it provides a robust, hardware-driven identity token that secures sensitive networks without relying on traditional, vulnerable software formulas.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "C++",
+      "ESP32",
+      "PySerial"
+    ],
+    "gallery": [
+      "projects/21/g1.webp",
+      "projects/21/g2.webp",
+      "projects/21/g3.webp"
+    ],
+    "videoUrl": "",
+
+    "developers": [
+      {
+        "name": "Rohit Gupta",
+        "designation": "Lead Systems Architect",
+        "photo": "projects/21/d1.webp"
+      },
+      {
+        "name": "Om Pandey",
+        "designation": "Security Analyst",
+        "photo": "projects/21/d2.webp"
+      },
+      {
+        "name": "Trashi Sharma",
+        "designation": "Backend & Analytics Developer",
+        "photo": "projects/21/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Genova AI",
+    "description": "Genova AI DNA Mutation Effect Predictor",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python, Machine Learning, Healthcare, Pandas, Deep Learning"
+    ],
+    "thumbnail": "projects/22/t.webp",
+    "about": "Millions undergo genetic testing annually, yet interpreting DNA mutations remains slow, costly, and inconsistent. Genova AI addresses this challenge by deploying Evo2, a genomic foundation model trained on billions of nucleotides, to predict variant pathogenicity in under 30 seconds with strong predictive performance. The platform integrates ClinVar validation, interactive genome visualization, and structured reporting, enabling scalable, AI-driven precision genomics for clinical and research applications.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "Healthcare",
+      "Pandas",
+      "Deep Learning"
+    ],
+    "gallery": [
+      "projects/22/g1.webp",
+      "projects/22/g2.webp",
+      "projects/22/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/ncDtbmOfSpc",
+    "developers": [
+      {
+        "name": "Ayush Kumar",
+        "designation": "AI/Backend Developer",
+        "photo": "projects/22/d1.webp"
+      },
+      {
+        "name": "Subham Kumar Sahoo",
+        "designation": "AI/ML Developer",
+        "photo": "projects/22/d2.webp"
+      },
+      {
+        "name": "Aman Patel",
+        "designation": "Frontend Developer",
+        "photo": "projects/22/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "SafeLive",
+    "description": "SafeLive: AI-Powered Smart Incident Detector and Resolution Platform",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "TypeScript",
+      "JWT authentication",
+      "MongoDB and WebSockets"
+    ],
+    "thumbnail": "projects/24/t.webp",
+    "about": "SafeLive addresses the inefficiency of fragmented civic complaint channels by providing an AI-powered incident management platform. By integrating geo-tagged citizen reports with real-time video from IoT-mounted cameras on garbage trucks, it automates hazard detection and priority prediction. This centralized React-based system validates evidence quality and auto-generates tickets for authorities, ensuring accountability and real-time progress tracking from initial detection to final resolution through a multi-channel response.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "TypeScript",
+      "JWT authentication",
+      "MongoDB and WebSockets"
+    ],
+    "gallery": [
+      "projects/24/g1.webp",
+      "projects/24/g2.webp",
+      "projects/24/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/r2RhKIGq3OU?si=DauZNJVi7voPXYbo",
+
+    "developers": [
+      {
+        "name": "Krishna Dwaipayan Das",
+        "designation": "IoT and Full Stack Developer",
+        "photo": "projects/24/d1.webp"
+      },
+      {
+        "name": "Sakshi Mishra",
+        "designation": "Full Stack Developer",
+        "photo": "projects/24/d2.webp"
+      },
+      {
+        "name": "Smruti Rani Pradhan",
+        "designation": "Full Stack Developer",
+        "photo": "projects/24/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "VERIFACE",
+    "description": "VERIFACE: A MULTI-MODAL DEEP FAKE MEDIA AND PHISHING DETECTION SYSTEM.",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python, Machine Learning, React, Deep Learning, FastAPI"
+    ],
+    "thumbnail": "projects/25/t.webp",
+    "about": "Veriface addresses the escalating threat of AI-driven misinformation and cyber-fraud by providing a robust multi-modal verification ecosystem. By integrating advanced deep learning models like MobileNetV2 and XGBoost, the platform identifies deepfakes, synthetic audio, and malicious URLs in real-time. This comprehensive approach empowers users to distinguish digital truth from deception, offering automated safety reports and actionable insights to secure their online presence and media integrity.",
+    "technologies": [
+      "Python", "Machine Learning", "React", "Deep Learning", "FastAPI"
+    ],
+    "gallery": [
+      "projects/25/g1.webp",
+      "projects/25/g2.webp",
+      "projects/25/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/PHxIjHUM6FI?si=kIrVsKkLsw2nI_vj",
+    "developers": [
+      {
+        "name": "PRITAM KUMAR SAHOO",
+        "designation": "Backend Developer",
+        "photo": "projects/25/d1.webp"
+      },
+      {
+        "name": "MONISHA MAHATO",
+        "designation": "ML Developer",
+        "photo": "projects/25/d2.webp"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Kisan Vani",
+    "description": "Kisan-Vani : Empowering farmers through data-driven digital insights",
+    "category": "agriculture",
+    "categoryName": "Agriculture Tech",
+    "tags": [
+      "Disease Detection, Express and Node js"
+    ],
+    "thumbnail": "projects/26/t.webp",
+    "about": "Smallholder farmers face a digital divide due to complex English-centric interfaces and inaccessible market data. Kisan Vani bridges this gap as a voice-activated \"Digital Saathi,\" leveraging Gemini AI to provide real-time Mandi prices and government schemes in local languages. Our seamless, multilingual audio interface empowers farmers to make data-driven decisions through simple, natural conversation, turning fragmented information into actionable insights.",
+    "technologies": [
+      "Disease Detection", "Express", "Node.js"
+    ],
+    "gallery": [
+      "projects/26/g1.webp",
+      "projects/26/g2.webp",
+      "projects/26/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/me-khiQMVyc?si=9XR4by0iUiwFJGu4",
+    "developers": [
+      {
+        "name": "Swadhin Dibya Jyoti",
+        "designation": "Backend Developer",
+        "photo": "projects/26/d1.webp"
+      },
+      {
+        "name": "Khusboo Bal",
+        "designation": "Frontend Developer",
+        "photo": "projects/26/d2.webp"
+      },
+      {
+        "name": "Purbanshi Dash",
+        "designation": "Backend Developer",
+        "photo": "projects/26/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "CHIRANVEEVI",
+    "description": "Chiranjeevi - A multi-modal non-invasive health diagnosis chamber",
+    "category": "healthcare",
+    "categoryName": "AI & ML, Data Science, IoT, Healthcare, Full Stack",
+    "tags": [
+      "Python, Computer Vision, Medical Imaging, Disease Detection, Machine Learning, Healthcare, NumPy, Pandas, React, OpenCV, Deep Learning, fastapi, Langchain, Langraph, Docker, Arduino, C++"
+    ],
+    "thumbnail": "projects/27/t.webp",
+    "about": "Access to timely and comprehensive health screening is often limited by cost, infrastructure, and the need for clinical appointments. Chiranjeevi reimagines this experience through a fully contactless, AI-enabled diagnostic chamber that performs rapid health assessments as individuals simply walk through it. By combining radar, thermal imaging, and computer vision, it evaluates key physiological markers, analyzes risk using validated methods, and delivers clear, structured reports to support informed healthcare decisions.",
+    "technologies": [
+      "Python", "Computer Vision", "Medical Imaging", "Disease Detection", "Machine Learning", "Healthcare", "NumPy", "Pandas", "React", "OpenCV", "Deep Learning", "fastapi", "Langchain", "Langraph", "Docker", "Arduino", "C++"
+    ],
+    "gallery": [
+      "projects/27/g1.webp",
+      "projects/27/g2.webp",
+      "projects/27/g3.webp"
+    ],
+      "videoUrl":"",
+    "developers": [
+      {
+        "name": "Koustav Bera",
+        "designation": "Team Lead, AI Engineer",
+        "photo": "projects/27/d1.webp"
+      },
+      {
+        "name": "Swetanjana Maity",
+        "designation": "AI engineer, system designer",
+        "photo": "projects/27/d2.webp"
+      },
+      {
+        "name": "Ayan Bhattacharjee",
+        "designation": "Devops Specialist",
+        "photo": "projects/27/d3.webp"
+      },
+      {
+        "name": "Shree Guha",
+        "designation": "FullStack Developer",
+        "photo": "projects/27/d4.webp"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "CogniSafe",
+    "description": "AI-Driven Early Dementia Risk-Prediction Platform",
+    "category": "healthcare",
+    "categoryName": "Healthcare",
+    "tags": [
+      "TensorFlow", "Disease Detection", "Machine Learning", "Healthcare", "React"
+    ],
+    "thumbnail": "projects/28/t.webp",
+    "about": "Dementia is frequently detected at advanced stages due to reliance on subjective cognitive assessments and the absence of integrated physical-behavioral analysis. CogniSafe is an AI-driven, multi-modal screening platform that combines standardized cognitive testing, speech analytics, and IoT-based gait monitoring using embedded sensors. Machine learning models generate predictive risk scores and structured clinical reports, enabling early risk identification, timely intervention, and scalable decision support for healthcare providers.",
+    "technologies": [
+      "TensorFlow", "Disease Detection", "Machine Learning", "Healthcare", "React"
+    ],
+    "gallery": [
+      "projects/28/g1.webp",
+      "projects/28/g2.webp",
+      "projects/28/g3.webp"
+    ],
+      "videoUrl":"https://youtu.be/GoD2fyBYIEM?feature=shared",
+    "developers": [
+      {
+        "name": "Soham Ghosh",
+        "designation": "AI Developer",
+        "photo": "projects/28/d1.webp"
+      },
+      {
+        "name": "Preeti Priyanka Mahapatra",
+        "designation": "Research Lead",
+        "photo": "projects/28/d2.webp"
+      },
+      {
+        "name": "Pratikshya Panigrahy",
+        "designation": "Frontend Developer",
+        "photo": "projects/28/d3.webp"
+      },
+      {
+        "name": "Aditi Dash",
+        "designation": "MBBS Undergraduate Student",
+        "photo": "projects/28/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "RakshAi",
+    "description": "Real-Time AI Voice Scam Detection",
+    "category": "ai",
+    "categoryName": "AI & ML",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "Deep Learning"
+    ],
+
+    "thumbnail": "projects/29/t.webp",
+    "about": "RakshAI is an AI-powered real-time voice scam detection system designed to combat deepfake and social engineering attacks. It processes live audio streams using WebRTC, extracts acoustic embeddings through Wav2Vec 2.0 and CNN models, analyses semantic intent using BERT, and evaluates behavioural anomalies. A weighted fusion engine generates a risk score with confidence metrics and SHAP-based explanations, delivering decisions in under two seconds.",
+    "technologies": [
+      "Python",
+      "Machine Learning",
+      "React",
+      "Deep Learning"
+    ],
+    "gallery": [
+      "projects/29/g1.webp",
+      "projects/29/g2.webp",
+      "projects/29/g3.webp"
+    ],
+      "videoUrl":"https://youtu.be/ps5PB-uKSVg?si=LDSSx8-x_LC6EuZ9",
+    "developers": [
+      {
+        "name": "Ritu Dey",
+        "designation": "Backend Developer",
+        "photo": "projects/29/d1.webp"
+      },
+      {
+        "name": "Shahid Abdul Farhad ",
+        "designation": "AI & ML Developer",
+        "photo": "projects/29/d2.webp"
+      },
+      {
+        "name": "Aaryan Raj",
+        "designation": "Frontend Developer",
+        "photo": "projects/29/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "EcoGrid",
+    "description": "EcoGrid : Intelligent Decentralized Renewable Energy Trading Platform",
+    "category": "blockchain",
+    "categoryName": "Blockchain",
+    "tags": [
+      "TensorFlow", "React", "Deep Learning", "Blockchain", "IoT"
+    ],
+    "thumbnail": "projects/30/t.webp",
+    "about": "Centralized energy systems lead to energy wastage, high distribution costs, and restricted renewable participation. EcoGrid transforms this model by combining AI-driven demand forecasting, IoT-enabled real-time monitoring, and blockchain-based peer-to-peer trading to build a decentralized energy ecosystem that optimizes renewable utilization, reduces costs, and empowers consumers to become active energy prosumers.",
+    "technologies": [
+      "TensorFlow", "React", "Deep Learning", "Blockchain", "IoT"
+    ],
+    "gallery": [
+      "projects/30/g1.webp",
+      "projects/30/g2.webp",
+      "projects/30/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/e_09cALW_1s",
+    "developers": [
+      {
+        "name": "Manish",
+        "designation": "Developer",
+        "photo": "projects/30/d1.webp"
+      },
+      {
+        "name": "Khushee Ranjan",
+        "designation": "AI/ML Developer",
+        "photo": "projects/30/d2.webp"
+      },
+      {
+        "name": "Samruddh Shubhadarshi",
+        "designation": "Full Stack Developer",
+        "photo": "projects/30/d3.webp"
+      },
+      {
+        "name": "Ashutosh Brahma",
+        "designation": "IoT Developer",
+        "photo": "projects/30/d4.webp"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "SwiftRelief",
+    "description": "SwiftRelief: Skyborne Aid for Disaster Zones",
+    "category": "ai",
+    "categoryName": "AI & ML, Web Development, IoT",
+    "tags": [
+      "Python", "Computer Vision", "Machine Learning", "React", "OpenCV"
+    ],
+    "thumbnail": "projects/31/t.webp",
+    "about": "Natural disasters often damage infrastructure and isolate affected areas, delaying the delivery of essential supplies and putting lives at risk. SwiftRelief solves this by using an autonomous drone controlled via a web or mobile app, where users set target coordinates. The drone navigates safely using GPS and AI-based obstacle avoidance, delivers relief materials, streams live location and video, and automatically returns to base, ensuring fast, reliable, and efficient disaster response.",
+    "technologies": [
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "React",
+      "OpenCV"
+    ],
+    "gallery": [
+      "projects/31/g1.webp",
+      "projects/31/g2.webp",
+      "projects/31/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Avnish Kumar",
+        "designation": "IoT Developer",
+        "photo": "projects/31/d1.webp"
+      },
+      {
+        "name": "Ankit kumar",
+        "designation": "Backend Developer",
+        "photo": "projects/31/d2.webp"
+      },
+      {
+        "name": "Mandeep Ray",
+        "designation": "UI/UX Designer",
+        "photo": "projects/31/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "LogicForge",
+    "description": "LogicForge: The Gamified Competitive Coding Arena",
+    "category": "web",
+    "categoryName": "Web Development, Full Stack",
+    "tags": [
+      "Next.js, Turborepo, Node.js, WebSockets, Go, Docker"
+    ],
+    "thumbnail": "projects/32/c.webp",
+    "about": "Existing coding platforms are repetitive, anxiety-driven, and easily gamed by AI tools, offering little genuine engagement for developers looking to compete and grow. LogicForge reimagines this as a high-intensity arcade and story-driven RPG experience, where players face Blitz duels, timed logic challenges, and narrative debugging campaigns. Its built-in anti-cheat architecture across rendering, semantic, and behavioral layers ensures every leaderboard position reflects real skill",
+    "technologies": [
+      "Next.js",
+      "Turborepo",
+      "Node.js",
+      "WebSockets",
+      "Go",
+      "Docker"
+    ],
+    "gallery": [
+      "projects/32/g1.webp",
+      "projects/32/g2.webp",
+      "projects/32/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Jennice Mishra",
+        "designation": "Frontend, Database",
+        "photo": "projects/32/d1.webp"
+      },
+      {
+        "name": "Saswat Barai",
+        "designation": "Backend Developer and Devops",
+        "photo": "projects/32/d2.webp"
+      },
+      {
+        "name": "Pratham Srivastava",
+        "designation": "Backend Developer",
+        "photo": "projects/32/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Hyperion",
+    "description": "Hyperion: A RL-Orchestrated Browser-Based Distributed Compute",
+    "category": "ai",
+    "categoryName": "AI & ML, Distributed Systems",
+    "tags": [
+      "Rust",
+      "Go",
+      "WebAssembly",
+      "WebGPU (wgpu + WGSL)",
+      "Envoy Proxy-Wasm",
+      "Reinforcement Learning (DQN / UCB1)",
+      "WebRTC Data Channels"
+    ],
+    "thumbnail": "projects/33/c.webp",
+    "about": "Hyperion is a distributed WebAssembly and WebGPU compute grid that transforms idle browsers into secure worker nodes. Jobs are decomposed into DAG-based micro-tasks and routed through an Envoy Proxy-Wasm load balancer using contextual bandits and Deep Q-Network policies. A hybrid WebSocket control plane and WebRTC mesh data plane ensure scalable, fault-tolerant execution with quorum verification, speculative redundancy, and adaptive reinforcement learning driven orchestration.",
+    "technologies": [
+      "Rust",
+      "Go",
+      "WebAssembly",
+      "WebGPU (wgpu + WGSL)",
+      "Envoy Proxy-Wasm",
+      "Reinforcement Learning (DQN / UCB1)",
+      "WebRTC Data Channels"
+    ],
+    "gallery": [
+      "projects/33/g1.webp",
+      "projects/33/g2.webp",
+      "projects/33/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/e_09cALW_1s",
+    "developers": [
+      {
+        "name": "Manish Prakash Sahu",
+        "designation": "ML, Systems and Full-Stack Developer",
+        "photo": "projects/33/d1.webp"
+      },
+      {
+        "name": "Abhinav Aryan",
+        "designation": "ML Developer",
+        "photo": "projects/33/d2.webp"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "BOT360",
+    "description": "Visual Robot Programming Platform",
+    "category": "iot",
+    "categoryName": "IoT",
+    "tags": [
+      "ESP32",
+      "Google Blockly"
+    ],
+    "thumbnail": "projects/34/t.webp",
+    "about": "Bot 360 revolutionizes STEM education by dismantling the syntax barriers that impede novice programmers. Our integrated platform merges Google Blockly's intuitive visual paradigm with enterprise-grade ESP32 robotics hardware, enabling K-12 learners to master algorithmic thinking through hands-on exploration. Featuring real-time computational simulation, wireless networked communication, and pedagogically-designed hardware abstraction, Bot 360 transforms complex programming concepts into accessible, engaging educational experiences that cultivate critical problem-solving acumen.",
+    "technologies": [
+      "ESP32",
+      "Google Blockly"
+    ],
+    "gallery": [
+      "projects/34/g1.webp",
+      "projects/34/g2.webp",
+      "projects/34/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/vyQ8UEw-J_8",
+    "developers": [
+      {
+        "name": "Amar Khera",
+        "designation": "Embedded Designer",
+        "photo": "projects/34/d1.webp"
+      },
+      {
+        "name": "Omm Prakash Sahoo",
+        "designation": "IoT Developer",
+        "photo": "projects/34/d2.webp"
+      },
+      {
+        "name": "Lucky Kumar",
+        "designation": "UI/UX Designer",
+        "photo": "projects/34/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Sentinel",
+    "description": "Sentinel : An Autonomous Marine Surface Vehicle",
+    "category": "iot",
+    "categoryName": "IoT",
+    "tags": [
+      "C/C++, Embedded Systems, JavaScript "
+    ],
+    "thumbnail": "projects/35/t.webp",
+    "about": "\nManual inspection and mapping of sewers, lakes and rivers poses severe safety risks and high labor costs. This autonomous catamaran prototype conducts safe, cost-effective environmental mapping and real-time surveillance in shallow waters. The embedded system integrates GPS autonomy, sonar obstacle detection, automated servo anchoring, and solar charging. Featuring a partially submerged electronics enclosure for stability, and top-mounted air propellers to prevent debris entanglement, this design effectively eliminates human intervention in dangerous aquatic environments.",
+    "technologies": [
+      "C/C++", "Embedded Systems", "JavaScript"
+    ],
+    "gallery": [
+      "projects/35/g1.webp",
+      "projects/35/g2.webp",
+      "projects/35/g3.webp"
+    ],
+    "videoUrl": "https://youtu.be/CRnyr7pvKAw",
+    "developers": [
+      {
+        "name": "Bristi Karmakar ",
+        "designation": "Systems Architect",
+        "photo": "projects/35/d1.webp"
+      },
+      {
+        "name": "Sai Samanwita Nayak ",
+        "designation": "Structural Design & Assembly",
+        "photo": "projects/35/d2.webp"
+      },
+      {
+        "name": "Rishabh Tiwary",
+        "designation": "Electronics Assembly & Testing",
+        "photo": "projects/35/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Sustainable H2",
+    "description": "Sustainable H2 : Thermophilic Dark Fermentation produces Biohydrogen",
+    "category": "renewable",
+    "categoryName": "Renewable Energy Technology",
+    "tags": [
+      "Anaerobic Digestion, Solar Power"
+    ],
+    "thumbnail": "projects/36/t.webp",
+    "about": "This project focuses on hydrogen production from biomass through anaerobic digestion to address rising energy demand and environmental pollution caused by fossil fuels. The problem lies in finding a cost effective and potential alternative and reducing carbon emissions. The solution involves converting biomass into clean hydrogen using microbial processes in oxygen-free bioreactors, promoting sustainable energy and waste valorization along with the use of sunlight for partial energy requirement of the process.",
+    "technologies": [
+      "Anaerobic Digestion", "Solar Power"
+    ],
+    "gallery": [
+      "projects/36/g1.webp",
+      "projects/36/g2.webp",
+      "projects/36/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/luLSaUlv8YA?si=_7aSEKJfGXlHlQty",
+    "developers": [
+      {
+        "name": "Abhishek Gupta",
+        "designation": "Literature Review",
+        "photo": "projects/36/d1.webp"
+      },
+      {
+        "name": "Saswat Kumar Mohanty",
+        "designation": "Project Manager",
+        "photo": "projects/36/d2.webp"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Asaa Mobility System",
+    "description": "(Hope) Mobility System: Empowering Safe Lifting.",
+    "category": "mech-electrical",
+    "categoryName": "Mechanical",
+    "tags": [
+      "Hydraulic System (based on Fluid Mechanics), SolidWorks, Mechanical Design, Fabrication Technology."
+    ],
+    "thumbnail": "projects/38/t.webp",
+    "about": "The proposed system is a hydraulically operated lifting wheelchair designed to assist elderly and physically challenged individuals during patient transfer and daily activities. It works on fluid mechanics principles to provide smooth and stable height adjustment with caregiver support. The chair features a strong fabricated frame, a folding mechanism for easy storage and transport, and ergonomic seating for comfort. The structure is designed using SolidWorks and manufactured through standard fabrication processes.",
+    "technologies": [
+      "Hydraulic System (based on Fluid Mechanics)", "SolidWorks", "Mechanical Design", "Fabrication Technology."
+    ],
+    "gallery": [
+      "projects/38/g1.webp",
+      "projects/38/g2.webp",
+      "projects/38/g3.webp"
+    ],
+    "videoUrl":"https://youtu.be/4bPLsVH9mYE?si=Lg9Heg9rc9lhyKQV",
+    "developers": [
+      {
+        "name": "Pratyush Panda",
+        "designation": "Production & Integration Engineer",
+        "photo": "projects/38/d1.webp"
+      },
+      {
+        "name": "Rajesh Parida",
+        "designation": "Hydraulic System Engineer",
+        "photo": "projects/38/d2.webp"
+      },
+      {
+        "name": "Rati Ranjan Panda",
+        "designation": "System Designer & Electrical Integration Engineer",
+        "photo": "projects/38/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Next Gen Mobility",
+    "description": "Next Gen Mobility: Hybrid and Electric VS Conventional",
+    "category": "mech-electrical",
+    "categoryName": "Mechanical EV",
+    "tags": [
+      ""
+    ],
+    "thumbnail": "projects/44/t.webp",
+    "about": "The growing demand for sustainable and energy-efficient transportation has accelerated the development of electric vehicle technologies. The automotive industry is gradually shifting from conventional internal combustion engine technology to electric vehicles as concerns over fuel consumption and environmental sustainability grow. This study compares the Renault Zoe (BEV) with the Renault Clio (ICE vehicle) to highlight differences in drivetrain technology and overall energy efficiency between electric and conventional vehicles.",
+    "technologies": [
+      "EV"
+    ],
+    "gallery": [
+      "projects/44/g1.webp",
+      "projects/44/g2.webp",
+      "projects/44/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Pratikshya Mohanty",
+        "designation": "Idea Developer",
+        "photo": "projects/44/d1.webp"
+      },
+      {
+        "name": "Deepak Prusty",
+        "designation": "Research Developer",
+        "photo": "projects/44/d2.webp"
+      },
+      {
+        "name": "Manish Kumar Sahoo",
+        "designation": "MATLAB/Simulink Designer",
+        "photo": "projects/44/d3.webp"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "SMARTBELT",
+    "description": "SMARTBELT : An Arduino Initiative for Vehicle Safety",
+    "category": "Embedded Systems",
+    "categoryName": "Embedded Systems",
+    "tags": [
+      "Arduino"
+    ],
+    "thumbnail": "projects/50/t.webp",
+    "about": "Many drivers neglect wearing seat belts, increasing the risk of serious injury during accidents. This project addresses the problem by developing an Arduino-based seat belt alarm system that detects whether the seat belt is fastened. A sensor monitors the belt status and activates a buzzer when the belt is not worn. The system provides a simple and effective reminder to encourage drivers to use seat belts, thereby improving road safety and promoting responsible driving habits.",
+    "technologies": [
+      "Arduino"
+    ],
+    "gallery": [
+      "projects/50/g1.webp",
+      "projects/50/g2.webp",
+      "projects/50/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Bineet Mihir Biswal",
+        "designation": "Hardware & Software Designer",
+        "photo": "projects/50/d1.webp"
+      },
+      {
+        "name": "Subhalaxmi Sahoo",
+        "designation": "Hardware Designer",
+        "photo": "projects/50/d2.webp"
+      },
+      {
+        "name": "Sahista Firdus",
+        "designation": "Support",
+        "photo": "projects/50/d3.webp"
+      }
+    ]
+  }
+]

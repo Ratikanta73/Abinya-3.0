@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="icon" type="image/png" href="logos/a.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-detail {
+            padding: calc(var(--space-4xl) + 60px) 0 var(--space-4xl);
+            background: var(--bg-primary);
+        }
+        
+        .project-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--space-2xl);
+            flex-wrap: wrap;
+            gap: var(--space-md);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-size: 15px;
+            font-weight: 500;
+            transition: color 0.3s var(--transition);
+        }
+        
+        .back-link:hover {
+            color: var(--accent-primary);
+        }
+        
+        .project-category-badge {
+            display: inline-block;
+            background: var(--accent-light);
+            color: var(--accent-primary);
+            padding: 8px 20px;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .project-header {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto var(--space-3xl);
+        }
+        
+        .project-header h1 {
+            font-size: 56px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--space-md);
+            line-height: 1.1;
+            color: var(--text-primary);
+        }
+        
+        .project-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .content-section {
+            background: var(--bg-alternate);
+            border-radius: var(--radius-md);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-lg);
+            border: 1px solid #EAEAEA;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+            color: var(--text-primary);
+        }
+        
+        .section-content {
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        
+        .tech-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+        }
+        
+        .tech-badge {
+            background: var(--accent-light);
+            color: var(--accent-primary);
+            padding: 10px 20px;
+            border-radius: var(--radius-full);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            background: #000;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .gallery-grid-project {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-md);
+        }
+        
+        .gallery-item-project {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            aspect-ratio: 4/3;
+        }
+        
+        .gallery-item-project img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s var(--transition);
+        }
+        
+        .gallery-item-project:hover img {
+            transform: scale(1.05);
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-lg);
+        }
+        
+        .developer-card {
+            background: var(--bg-primary);
+            border-radius: var(--radius-md);
+            padding: var(--space-lg);
+            text-align: center;
+            transition: all 0.4s var(--transition);
+            border: 1px solid #EAEAEA;
+        }
+        
+        .developer-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .developer-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto var(--space-md);
+            border: 3px solid var(--accent-light);
+        }
+        
+        .developer-name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+            color: var(--text-primary);
+        }
+        
+        .developer-designation {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        
+        @media (max-width: 968px) {
+            .project-header h1 {
+                font-size: 36px;
+            }
+            
+            .gallery-grid-project {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .team-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+            
+            .content-section {
+                padding: var(--space-lg);
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .project-detail {
+                padding: calc(var(--space-2xl) + 80px) 0 var(--space-2xl);
+            }
+            
+            .project-meta {
+                margin-bottom: var(--space-lg);
+                gap: var(--space-sm);
+            }
+            
+            .back-link {
+                font-size: 14px;
+            }
+            
+            .project-category-badge {
+                padding: 6px 16px;
+                font-size: 12px;
+            }
+            
+            .project-header {
+                margin-bottom: var(--space-lg);
+            }
+            
+            .project-header h1 {
+                font-size: 28px;
+                line-height: 1.2;
+                margin-bottom: var(--space-sm);
+            }
+            
+            .content-section {
+                padding: var(--space-md);
+                margin-bottom: var(--space-md);
+                border-radius: var(--radius-sm);
+            }
+            
+            .section-title {
+                font-size: 20px;
+                margin-bottom: var(--space-sm);
+            }
+            
+            .section-content {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+            
+            .tech-grid {
+                gap: var(--space-xs);
+            }
+            
+            .tech-badge {
+                padding: 8px 14px;
+                font-size: 13px;
+            }
+            
+            .gallery-grid-project {
+                grid-template-columns: 1fr;
+                gap: var(--space-sm);
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: var(--space-md);
+            }
+            
+            .developer-card {
+                padding: var(--space-md);
+            }
+            
+            .developer-avatar {
+                width: 100px;
+                height: 100px;
+                margin-bottom: var(--space-sm);
+            }
+            
+            .developer-name {
+                font-size: 16px;
+            }
+            
+            .developer-designation {
+                font-size: 13px;
+            }
+        }
+        
+        @media (max-width: 375px) {
+            .project-header h1 {
+                font-size: 24px;
+            }
+            
+            .section-title {
+                font-size: 18px;
+            }
+            
+            .content-section {
+                padding: var(--space-sm);
+            }
+        }
+
+        /* Dark mode for project page */
+        [data-theme="dark"] .content-section {
+            background: #1A1B1E;
+            border-color: #2A2B2E;
+        }
+        [data-theme="dark"] .developer-card {
+            background: #1A1B1E;
+            border-color: #2A2B2E;
+        }
+        [data-theme="dark"] .tech-badge {
+            background: rgba(44, 165, 141, 0.15);
+            color: #2CA58D;
+        }
+        [data-theme="dark"] .back-link {
+            color: #A0A0A0;
+        }
+        [data-theme="dark"] .theme-toggle {
+            background: #1A1B1E;
+            border-color: #2A2B2E;
+            color: #F0F0F0;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="logos/Abinya_logo.png" alt="ABINYA 3.0" class="logo-img">
+                </a>
+                
+                <div class="nav-right">
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html#home" class="nav-link">Home</a></li>
+                        <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                        <li><a href="index.html#about" class="nav-link">About</a></li>
+                        <li><a href="index.html#gallery" class="nav-link">Gallery</a></li>
+                        <!-- <li><a href="index.html#contact" class="nav-link">Contact</a></li> -->
+                    </ul>
+
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-meta">
+                <a href="index.html#projects" class="back-link">
+                    ← Back to Projects
+                </a>
+                <span class="project-category-badge" id="categoryBadge"></span>
+            </div>
+            
+            <div class="project-header">
+                <h1 id="projectTitle">Loading...</h1>
+            </div>
+            
+            <div class="project-content">
+                <!-- About the Project -->
+                <div class="content-section">
+                    <h2 class="section-title">About the Project</h2>
+                    <div class="section-content" id="projectAbout"></div>
+                </div>
+                
+                <!-- Technologies Used -->
+                <div class="content-section">
+                    <h2 class="section-title">Technologies Used</h2>
+                    <div class="tech-grid" id="techGrid"></div>
+                </div>
+                
+                <!-- Project Explanation Video -->
+                <div class="content-section">
+                    <h2 class="section-title">Project Explanation Video</h2>
+                    <div class="video-container" id="videoContainer">
+                        <!-- YouTube iframe will be inserted here -->
+                    </div>
+                </div>
+                
+                <!-- Project Gallery -->
+                <div class="content-section">
+                    <h2 class="section-title">Project Gallery</h2>
+                    <div class="gallery-grid-project" id="projectGallery"></div>
+                </div>
+                
+                <!-- Development Team -->
+                <div class="content-section">
+                    <h2 class="section-title">Development Team</h2>
+                    <div class="team-grid" id="developmentTeam"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">ABINYA 3.0</div>
+                    <p class="footer-description">A SOA Pramima Project</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#gallery">Gallery</a>
+                    <!-- <a href="index.html#contact">Contact</a> -->
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Copyright © 2026 ABINYA 3.0. All rights reserved.</p>
+                <p>Designed & Developed by <a href="https://www.linkedin.com/in/ratikantabehera/"
+                target="_blank"
+              >Ratikanta
+              </a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <script>
+        console.log('🚀 Project page loaded');
+        
+        // Apply saved theme immediately
+        const savedTheme = localStorage.getItem('abinya-theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const current = document.documentElement.getAttribute('data-theme');
+                const next = current === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('abinya-theme', next);
+            });
+        }
+        
+        // Simple navigation for project page
+        const navbar = document.getElementById('navbar');
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinksContainer = document.getElementById('navLinks');
+        const backToTop = document.getElementById('backToTop');
+        
+        // Sticky navbar
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            if (window.scrollY > 400) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        // Mobile menu toggle
+        const navRight = document.querySelector('.nav-right');
+        if (mobileToggle) {
+            mobileToggle.addEventListener('click', () => {
+                mobileToggle.classList.toggle('active');
+                if (navRight) navRight.classList.toggle('active');
+            });
+        }
+        
+        // Back to top
+        if (backToTop) {
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+        
+        // Load and display project
+        async function loadProjectData() {
+            console.log('📥 Starting to load projects.json...');
+            
+        
+            
+            let projectsData = [];
+            
+            try {
+                const response = await fetch('projects.json');
+                console.log('📡 Fetch response:', response.status, response.statusText);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                projectsData = await response.json();
+                console.log('✅ Projects loaded from JSON:', projectsData.length, 'projects');
+                
+            } catch (error) {
+                console.warn('⚠️ Could not load projects.json, using fallback data');
+                console.error('Error:', error);
+                projectsData = fallbackData;
+            }
+            
+            try {
+                // Get project ID from URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const projectId = parseInt(urlParams.get('id'));
+                console.log('🔍 Looking for project ID:', projectId);
+                
+                // Find the project
+                const project = projectsData.find(p => p.id === projectId);
+                
+                if (project) {
+                    console.log('✨ Found project:', project.title);
+                    displayProject(project);
+                } else {
+                    console.error('❌ Project not found for ID:', projectId);
+                    showError(`Project with ID ${projectId} not found`);
+                }
+                
+            } catch (error) {
+                console.error('💥 Error displaying project:', error);
+                showError(`Failed to display project: ${error.message}`);
+            }
+        }
+        
+        // Converts any YouTube URL format to embed URL
+        function getYouTubeEmbedUrl(url) {
+    if (!url || typeof url !== "string") return null;
+
+    try {
+        // Extract video ID from ANY YouTube format
+        const regExp = /(?:youtube\.com\/(?:.*v=|embed\/|shorts\/)|youtu\.be\/)([^?&]+)/;
+        const match = url.match(regExp);
+
+        if (match && match[1]) {
+            return `https://www.youtube.com/embed/${match[1]}?rel=0&modestbranding=1`;
+        }
+
+        return null;
+    } catch (e) {
+        console.error("Video parse error:", e);
+        return null;
+    }
+}
+
+        function displayProject(project) {
+            console.log('Displaying project:', project.title);
+            
+            // Set title and badge
+            document.getElementById('projectTitle').textContent = project.title;
+            document.getElementById('categoryBadge').textContent = project.categoryName || project.category.toUpperCase();
+            document.title = `${project.title}`;
+            
+            // About section
+            document.getElementById('projectAbout').textContent = project.about || 'No description available.';
+            
+            // Technologies
+            const techGrid = document.getElementById('techGrid');
+            techGrid.innerHTML = '';
+            if (project.technologies && project.technologies.length > 0) {
+                project.technologies.forEach(tech => {
+                    const badge = document.createElement('span');
+                    badge.className = 'tech-badge';
+                    badge.textContent = tech;
+                    techGrid.appendChild(badge);
+                });
+            }
+
+
+
+
+
+            
+            // Video
+            const videoContainer = document.getElementById('videoContainer');
+            if (project.videoUrl) {
+                const embedUrl = getYouTubeEmbedUrl(project.videoUrl);
+                if (embedUrl) {
+                    videoContainer.innerHTML = `<iframe src="${embedUrl}" title="${project.title} Video" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>`;
+                } else {
+                    videoContainer.innerHTML = `<div style="display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:12px;color:var(--text-muted)">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+                        <p style="font-size:14px">Invalid video URL</p>
+                    </div>`;
+                }
+            }
+
+
+
+
+
+
+            
+            
+            // Gallery
+            const galleryContainer = document.getElementById('projectGallery');
+            galleryContainer.innerHTML = '';
+            if (project.gallery && project.gallery.length > 0) {
+                project.gallery.forEach((imageUrl, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item-project';
+                    item.innerHTML = `<img src="${imageUrl}" alt="Gallery ${index + 1}">`;
+                    galleryContainer.appendChild(item);
+                });
+            }
+            
+            // Team
+            const teamContainer = document.getElementById('developmentTeam');
+            teamContainer.innerHTML = '';
+            if (project.developers && project.developers.length > 0) {
+                project.developers.forEach(dev => {
+                    const card = document.createElement('div');
+                    card.className = 'developer-card';
+                    card.innerHTML = `
+                        <img src="${dev.photo}" alt="${dev.name}" class="developer-avatar">
+                        <div class="developer-name">${dev.name}</div>
+                        <div class="developer-designation">${dev.designation}</div>
+                    `;
+                    teamContainer.appendChild(card);
+                });
+            }
+            
+            console.log('✅ Project display complete!');
+        }
+        
+        function showError(message) {
+            const detailSection = document.querySelector('.project-detail');
+            detailSection.innerHTML = `
+                <div class="container" style="text-align: center; padding: 120px 0;">
+                    <h1 style="font-size: 48px; margin-bottom: 16px;">⚠️ Error</h1>
+                    <p style="font-size: 18px; color: var(--text-secondary); margin-bottom: 16px;">
+                        ${message}
+                    </p>
+                    <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 32px;">
+                        Open browser console (F12) for details
+                    </p>
+                    <a href="index.html#projects" class="btn btn-primary">← Back to Projects</a>
+                </div>
+            `;
+        }
+        
+        // Start loading when page is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadProjectData);
+        } else {
+            loadProjectData();
+        }
+    </script>
+</body>
+</html>
