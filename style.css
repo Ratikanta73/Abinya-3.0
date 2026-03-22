@@ -2460,7 +2460,7 @@ button {
 
     .testimonials-section .testimonials-track {
         gap: 16px !important;
-         animation: scroll-testimonials 5s linear infinite;
+         animation: scroll-testimonials 2s linear infinite;
     }
 
     .testimonials-section .testimonial-message {
