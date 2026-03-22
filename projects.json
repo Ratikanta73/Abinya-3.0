@@ -53,7 +53,7 @@
       "Machine Learning",
       "OpenCV"
     ],
-    "thumbnail": "projects/2/2_cover.webp",
+    "thumbnail": "projects/2/c.webp",
     "about": "DDSH (Dynamic Driver Safety Hub) is a real-time fatigue detection system combining eye-state classification and whole-body pose estimation in a unified AI pipeline. It addresses limitations of traditional systems by eliminating false positives and adapting to dynamic driving conditions. Using MobileNet transfer learning and enhanced HRNet modeling, DDSH achieves high accuracy with real-time 42 FPS inference, enabling lightweight, production-ready deployment for intelligent road safety.",
     "technologies": [
       "TensorFlow",
