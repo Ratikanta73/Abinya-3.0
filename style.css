@@ -2331,7 +2331,7 @@ button {
 .testimonials-section .testimonials-track {
     display: flex !important;
     gap: var(--space-lg);
-    animation: scroll-testimonials 40s linear infinite;
+    animation: scroll-testimonials 10s linear infinite;
     will-change: transform;
     flex-wrap: nowrap !important;
 }
@@ -2429,9 +2429,17 @@ button {
     background: #0E0F11;
 }
 
+[data-theme="dark"] .testimonial-message {
+    color: var(--text-primary);
+}
+[data-theme="dark"] .testimonial-name {
+    color: var(--text-primary);
+}
+
 [data-theme="dark"] .testimonial-card {
     background: #1A1B1E;
     border-color: var(--border-color);
+    color: var(--text-light);
 }
 
 [data-theme="dark"] .testimonial-card:hover {
