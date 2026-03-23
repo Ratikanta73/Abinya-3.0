@@ -256,7 +256,7 @@
       },
       {
         "name": "Debadatta Panda",
-        "designation": "UI/UX Designer",
+        "designation": "Web Developer",
         "photo": "projects/7/d3.webp"
       }
     ]
@@ -338,12 +338,12 @@
       {
         "name": "MOHIT KUMAR",
         "designation": "Machine Learning Developer (Agentic AI)",
-        "photo": "projects/9/d2.webp"
+        "photo": "projects/9/d3.webp"
       },
       {
         "name": "MADHUSIKTA TANAYA SINGH",
         "designation": "Full-Stack Developer",
-        "photo": "projects/9/d3.webp"
+        "photo": "projects/9/d2.webp"
       }
     ]
   },
@@ -1276,7 +1276,7 @@
       "projects/33/g2.webp",
       "projects/33/g3.webp"
     ],
-    "videoUrl":"https://youtu.be/e_09cALW_1s",
+    "videoUrl":"https://www.youtube.com/watch?v=7fw1UZbePOI",
     "developers": [
       {
         "name": "Manish Prakash Sahu",
