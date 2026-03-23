@@ -1076,6 +1076,21 @@
         "name": "Aditi Dash",
         "designation": "MBBS Undergraduate Student",
         "photo": "projects/28/d4.webp"
+      },
+      {
+        "name": "Ashish Samantaray ",
+        "designation": " IoT Developer",
+        "photo": "projects/28/d5.webp"
+      },
+      {
+        "name": "Prakhar Dwivedi",
+        "designation": "AI developer",
+        "photo": "projects/28/d6.webp"
+      },
+      {
+        "name": "Pratyush Samantara ",
+        "designation": "Full Stack Developer",
+        "photo": "projects/28/d7.webp"
       }
     ]
   },
