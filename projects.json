@@ -171,12 +171,12 @@
       },
       {
         "name": "Akansha Ajay ",
-        "designation": "UI/UX Designer",
+        "designation": "Blockchain Developer ",
         "photo": "projects/5/5d3.webp"
       },
       {
         "name": "Smruti Parija",
-        "designation": "Blockchain Developer",
+        "designation": "UI/UX Designer",
         "photo": "projects/5/5d4.webp"
       }
     ]
@@ -591,12 +591,12 @@
     "developers": [
       {
         "name": "Anahita Singh",
-        "designation": "frontend & AIML ",
+        "designation": "Backend & AIML ",
         "photo": "projects/15/d1.webp"
       },
       {
         "name": "Ava Acharya ",
-        "designation": "UI/UX Designer",
+        "designation": "Frontend & UI/UX Designer",
         "photo": "projects/15/d2.webp"
       },
       {
@@ -995,7 +995,7 @@
   },
   {
     "id": 27,
-    "title": "CHIRANVEEVI",
+    "title": "CHIRANJEEVI",
     "description": "Chiranjeevi - A multi-modal non-invasive health diagnosis chamber",
     "category": "healthcare",
     "categoryName": "AI & ML, Data Science, IoT, Healthcare, Full Stack",
