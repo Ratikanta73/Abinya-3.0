@@ -1532,5 +1532,42 @@
         "photo": "projects/50/d3.webp"
       }
     ]
+  },
+    {
+    "id": 52,
+    "title": "AfterMa",
+    "description": "A post partum healing and wellness AI assistant",
+    "category": "healthcare",
+    "categoryName": "Healthcare",
+    "tags": [
+      "Python, Machine Learning, Healthcare, Pandas, React"
+    ],
+    "thumbnail": "projects/16/t.webp",
+    "about": "Postpartum mental health disorders, including depression and anxiety, frequently remain undiagnosed due to social stigma, lack of routine screening, limited access to specialists, and inadequate follow-up after childbirth. Many mothers silently struggle without timely support, increasing risks to both maternal and infant well-being.\nAfterMa proposes a privacy-preserving, AI-driven web platform that leverages a fine-tuned model to analyze maternal journal entries and detect early signs of emotional distress. The system generates explainable risk scores, categorizes severity levels, and enables continuous monitoring through a secure FastAPI backend integrated with an interactive frontend interface.\nBy providing accessible, real-time mental health insights, the platform aims to promote early intervention, reduce preventable complications, and strengthen preventive maternal healthcare through technology-enabled screening and support.\n",
+    "technologies": [
+      "Python", "Machine Learning", "Healthcare", "Pandas", "React"
+    ],
+    "gallery": [
+      "projects/16/g1.webp",
+      "projects/16/g2.webp",
+      "projects/16/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Ayush K Tripathi",
+        "designation": "Developer",
+        "photo": "projects/16/d1.webp"
+      },
+      {
+        "name": "Akash Raj",
+        "designation": "Developer",
+        "photo": "projects/16/d2.webp"
+      },
+      {
+        "name": "Ankit Kumar",
+        "designation": "Developer",
+        "photo": "projects/16/d3.webp"
+      }
+    ]
   }
 ]
