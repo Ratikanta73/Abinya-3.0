@@ -873,6 +873,46 @@
       }
     ]
   },
+{
+    "id": 23,
+    "title": "BizGap",
+    "description": "BizGap : Start Smart, Scale Smarter.",
+    "category": "web development",
+    "categoryName": "Web Development",
+    "tags": [
+      "React, Node.js, Cloud Based APIs"
+    ],
+    "thumbnail": "projects/23/t.webp",
+    "about": "Indias entrepreneurial ecosystem is expanding under national initiatives, yet local business\ndecisions remain fragmented, risk-heavy, and driven by scattered information rather than structured analysis. Entrepreneurs lack unified access to capital clarity, hyperlocal demand validation, and scheme alignment. Our platform addresses this by integrating opportunity mapping, structured cost modelling, scenario-based ROI simulations, financial eligibility mapping, and competitive risk indexing into a single decision-intelligence layer for validated, data-driven business creation and\nexpansion.",
+    "technologies": [
+      "React", "Node.js", "Cloud Based API"
+    ],
+    "videoUrl":"https://youtu.be/-O7cFcjMC3Q?si=y3e8k_QTFq42NFjN",
+    "gallery": [
+      "projects/23/g1.webp",
+      "projects/23/g2.webp",
+      "projects/23/g3.webp"
+    ],
+    "developers": [
+      {
+        "name": "Kesar Gupta",
+        "designation": "Developer",
+        "photo": "projects/23/d1.webp"
+      },
+      {
+        "name": "Anjali Rout",
+        "designation": "Developer",
+        "photo": "projects/23/d2.webp"
+      },
+      {
+        "name": "Apurva Sahay",
+        "designation": "Developer",
+        "photo": "projects/23/d3.webp"
+      }
+    ]
+  },
+
+
   {
     "id": 24,
     "title": "SafeLive",
