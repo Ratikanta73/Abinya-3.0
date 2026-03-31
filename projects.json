@@ -896,17 +896,17 @@
     "developers": [
       {
         "name": "Kesar Gupta",
-        "designation": "Developer",
+        "designation": "UI&UX Designer",
         "photo": "projects/23/d1.webp"
       },
       {
         "name": "Anjali Rout",
-        "designation": "Developer",
+        "designation": "Frontend Developer",
         "photo": "projects/23/d2.webp"
       },
       {
         "name": "Apurva Sahay",
-        "designation": "Developer",
+        "designation": "Backend Developer",
         "photo": "projects/23/d3.webp"
       }
     ]
